@@ -7,14 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C52C855B212583C9009F4A39 /* Question Bank.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52C855A212583C9009F4A39 /* Question Bank.swift */; };
+		C52C85602125B632009F4A39 /* ProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C52C855D2125B631009F4A39 /* ProgressHUD.bundle */; };
+		C52C85612125B632009F4A39 /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = C52C855E2125B632009F4A39 /* ProgressHUD.m */; };
 		C56C8D8B2124A4E20059D224 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56C8D8A2124A4E20059D224 /* AppDelegate.swift */; };
 		C56C8D8D2124A4E20059D224 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56C8D8C2124A4E20059D224 /* ViewController.swift */; };
 		C56C8D902124A4E20059D224 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C56C8D8E2124A4E20059D224 /* Main.storyboard */; };
 		C56C8D922124A4E40059D224 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C56C8D912124A4E40059D224 /* Assets.xcassets */; };
 		C56C8D952124A4E40059D224 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C56C8D932124A4E40059D224 /* LaunchScreen.storyboard */; };
+		C56C8DA22124B45E0059D224 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56C8DA12124B45E0059D224 /* Question.swift */; };
+		C56C8DA42124B4740059D224 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C56C8DA32124B4740059D224 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C52C855A212583C9009F4A39 /* Question Bank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Question Bank.swift"; sourceTree = "<group>"; };
+		C52C855C2125B631009F4A39 /* Quiz IOS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Quiz IOS-Bridging-Header.h"; sourceTree = "<group>"; };
+		C52C855D2125B631009F4A39 /* ProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ProgressHUD.bundle; sourceTree = "<group>"; };
+		C52C855E2125B632009F4A39 /* ProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressHUD.m; sourceTree = "<group>"; };
+		C52C855F2125B632009F4A39 /* ProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressHUD.h; sourceTree = "<group>"; };
 		C56C8D872124A4E20059D224 /* Quiz IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quiz IOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C56C8D8A2124A4E20059D224 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C56C8D8C2124A4E20059D224 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +32,8 @@
 		C56C8D912124A4E40059D224 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C56C8D942124A4E40059D224 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C56C8D962124A4E40059D224 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C56C8DA12124B45E0059D224 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		C56C8DA32124B4740059D224 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +50,9 @@
 		C56C8D7E2124A4E20059D224 = {
 			isa = PBXGroup;
 			children = (
+				C56C8DA32124B4740059D224 /* Default-568h@2x.png */,
 				C56C8D892124A4E20059D224 /* Quiz IOS */,
+				C56C8D962124A4E40059D224 /* Info.plist */,
 				C56C8D882124A4E20059D224 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,14 +68,51 @@
 		C56C8D892124A4E20059D224 /* Quiz IOS */ = {
 			isa = PBXGroup;
 			children = (
-				C56C8D8A2124A4E20059D224 /* AppDelegate.swift */,
-				C56C8D8C2124A4E20059D224 /* ViewController.swift */,
-				C56C8D8E2124A4E20059D224 /* Main.storyboard */,
-				C56C8D912124A4E40059D224 /* Assets.xcassets */,
-				C56C8D932124A4E40059D224 /* LaunchScreen.storyboard */,
-				C56C8D962124A4E40059D224 /* Info.plist */,
+				C56C8D9E2124B3620059D224 /* Controller */,
+				C56C8DA02124B3970059D224 /* Model */,
+				C56C8D9C2124B3110059D224 /* View */,
+				C56C8D9D2124B3390059D224 /* Supporting Files */,
 			);
 			path = "Quiz IOS";
+			sourceTree = "<group>";
+		};
+		C56C8D9C2124B3110059D224 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C56C8D8E2124A4E20059D224 /* Main.storyboard */,
+				C56C8D912124A4E40059D224 /* Assets.xcassets */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C56C8D9D2124B3390059D224 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C56C8D932124A4E40059D224 /* LaunchScreen.storyboard */,
+				C52C855D2125B631009F4A39 /* ProgressHUD.bundle */,
+				C52C855F2125B632009F4A39 /* ProgressHUD.h */,
+				C52C855E2125B632009F4A39 /* ProgressHUD.m */,
+				C52C855C2125B631009F4A39 /* Quiz IOS-Bridging-Header.h */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C56C8D9E2124B3620059D224 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C56C8D8A2124A4E20059D224 /* AppDelegate.swift */,
+				C56C8D8C2124A4E20059D224 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C56C8DA02124B3970059D224 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C56C8DA12124B45E0059D224 /* Question.swift */,
+				C52C855A212583C9009F4A39 /* Question Bank.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +147,7 @@
 				TargetAttributes = {
 					C56C8D862124A4E20059D224 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
 					};
 				};
 			};
@@ -123,7 +175,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C56C8D952124A4E40059D224 /* LaunchScreen.storyboard in Resources */,
+				C56C8DA42124B4740059D224 /* Default-568h@2x.png in Resources */,
 				C56C8D922124A4E40059D224 /* Assets.xcassets in Resources */,
+				C52C85602125B632009F4A39 /* ProgressHUD.bundle in Resources */,
 				C56C8D902124A4E20059D224 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,7 +189,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C56C8DA22124B45E0059D224 /* Question.swift in Sources */,
 				C56C8D8D2124A4E20059D224 /* ViewController.swift in Sources */,
+				C52C85612125B632009F4A39 /* ProgressHUD.m in Sources */,
+				C52C855B212583C9009F4A39 /* Question Bank.swift in Sources */,
 				C56C8D8B2124A4E20059D224 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,14 +337,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Quiz IOS/Info.plist";
+				DEVELOPMENT_TEAM = PC6LC4JT7J;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.deroubaix.Quiz-IOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Quiz IOS/Supporting Files/Quiz IOS-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -297,14 +358,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Quiz IOS/Info.plist";
+				DEVELOPMENT_TEAM = PC6LC4JT7J;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.deroubaix.Quiz-IOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Quiz IOS/Supporting Files/Quiz IOS-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
